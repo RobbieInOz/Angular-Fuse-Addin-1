@@ -6,7 +6,7 @@
     "scripts": {
         "ng": "ng",
         "sideload": "office-addin-debugging start manifest.xml",
-        "start": "ng serve --port 3000 --ssl true --ssl-key ./node_modules/browser-sync/certs/server.key --ssl-cert ./node_modules/browser-sync/certs/server.crt",
+        "start": "ng serve --port 3000 --ssl true --ssl-key ./certs/server.key --ssl-cert ./certs/server.crt",
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
