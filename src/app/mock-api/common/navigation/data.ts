@@ -165,6 +165,13 @@ export const defaultNavigation: FuseNavigationItem[] = [
                 link : '/pages/activities'
             },
             {
+                id   : 'pages.newpage',
+                title: 'New Page',
+                type : 'basic',
+                icon : 'heroicons_outline:menu-alt-2',
+                link : '/pages/newpage'
+            },
+            {
                 id      : 'pages.authentication',
                 title   : 'Authentication',
                 type    : 'collapsable',

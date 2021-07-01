@@ -99,6 +99,8 @@ export const appRoutes: Route[] = [
             // Pages
             {path: 'pages', children: [
 
+                                // New Page
+                                {path: 'newpage', loadChildren: () => import('app/modules/admin/pages/new-page/newpage.module').then(m => m.newpageModule)},
                 // Activities
                 {path: 'activities', loadChildren: () => import('app/modules/admin/pages/activities/activities.module').then(m => m.ActivitiesModule)},
 
